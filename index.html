@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="icon" href="./logo copy.png">
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main">
+    <div class="sidebar">
+      <div class="nav">
+        <div class="nav-option" style="opacity: 1;">
+          <i class="fa-solid fa-house"></i>
+          <a href="#">Home</a>
+        </div>
+        <div class="nav-option">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="#">Search</a>
+        </div>
+      </div>
+
+      <div class="library">
+        <i class="fa-solid fa-book"></i>
+        <span>Your Library</span>
+      </div>
+
+      <div class="lib-box">
+        <div class="box">
+          <p class="box-p1">Create your first playlist</p>
+          <p class="box-p2">It's easy, we'll help you</p>
+          <button class="badge">Create playlist</button>
+        </div>
+        <div class="box">
+          <p class="box-p1">Let's find some podcasts to follow</p>
+          <p class="box-p2">We'll keep you updated on new episodes</p>
+          <button class="badge">Browse podcasts</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="sticky-nav">
+        <div class="sticky-nav-icons">
+          <img src="./backward_icon.png">
+          <img src="./forward_icon.png" class="hide">
+        </div>
+        <div class="sticky-nav-options">
+          <button class="badge nav-item hide">Explore Premium</button>
+          <button class="badge nav-item dark-badge">
+            <i class="fa-solid fa-download" style="margin-right: 5px;"></i>Install App
+          </button>
+          <i class="fa-solid fa-user" style="color: #7d7d7d;"></i>
+        </div>
+      </div>
+
+      <div class="cards"> 
+        <h2>Recently Played</h2>
+        <div class="card-container">
+          <div class="card">
+            <img src="./card1img.jpeg" alt="Top 50 Global Playlist">
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+        </div>
+      </div>
+
+      <h2>Trending now near you...</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="./card2img.jpeg" alt="Mahiye Jinna S...">
+          <p class="card-title">Mahiye Jinna S...</p>
+          <p class="card-info">Darshan Raval</p>
+        </div>
+        <div class="card">
+          <img src="./9.png" alt="Punjabi 101">
+          <p class="card-title">Punjabi 101</p>
+          <p class="card-info">Ultimate 101 Punjabi Hits with Karan Aujla</p>
+        </div>
+        <div class="card">
+          <img src="./card4img.jpeg" alt="South Star Hits">
+          <p class="card-title">South Star Hits</p>
+          <p class="card-info">Your daily updates of the most played...</p>
+        </div>
+        <div class="card">
+          <img src="./8.png" alt="Yo Yo Honey Singh">
+          <p class="card-title">Yo Yo Honey Singh</p>
+          <p class="card-info">Blue Eyes and Desi Kalakaar...</p>
+        </div>
+        <div class="card">
+          <img src="./card6img.jpeg" alt="Top 10 - Near">
+          <p class="card-title">Top 10 - Near</p>
+          <p class="card-info">Your daily updates of the most played...</p>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="line"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="music-player">
+    <div class="album"></div>
+    <div class="player">
+      <div class="player-controls">
+        <img src="./player_icon1.png" class="player-control-icon">
+        <img src="./player_icon2.png" class="player-control-icon">
+        <img src="./player_icon3.png" class="player-control-icon">
+        <img src="./player_icon4.png" class="player-control-icon">
+        <img src="./player_icon5.png" class="player-control-icon">
+      </div>
+      <div class="playback-bar">
+        <span class="curr-time">00:00</span> 
+        <input type="range" min="0" max="100" class="progress-bar">
+         <span class="curr-time">3:45</span> 
+
+
+
+
+
+    </div>
+  </div>
+</body>
+</html>
